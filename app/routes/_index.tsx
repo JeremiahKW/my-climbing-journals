@@ -1,15 +1,16 @@
 import RouteCard from "../components/RouteCard";
+import Session from "../components/Sessions";
 import { mockSessions } from "../data"
 
 
 export default function Index() {
-  const routes = mockSessions[0].routes;
+  const sessions = mockSessions;
 
   return (
     <>
       <div>
-        {routes.map((route) => (
-          <RouteCard  route={route} />
+        {sessions.map((session) => (
+           <Session session={session} />
         ))}
       </div>
     </>

@@ -15,12 +15,12 @@ import {
             rel="icon"
             href="data:image/x-icon;base64,AA"
           />
+          <title>Route Tracker</title>
           <Meta />
           <Links />
         </head>
         <body>
           <Header />
-          <h1>Hello world!</h1>
           <Outlet />
   
           <Scripts />

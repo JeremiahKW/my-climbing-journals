@@ -5,6 +5,7 @@ import {
     Outlet,
     Scripts,
   } from "@remix-run/react";
+  import Header from "./components/header";
   
   export default function App() {
     return (
@@ -18,6 +19,7 @@ import {
           <Links />
         </head>
         <body>
+          <Header />
           <h1>Hello world!</h1>
           <Outlet />
   

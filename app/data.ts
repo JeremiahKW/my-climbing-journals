@@ -161,7 +161,7 @@ export const mockSessions: Session[] = [
         id: 1,
         name: "Route 1",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -176,7 +176,7 @@ export const mockSessions: Session[] = [
         id: 2,
         name: "Route 2",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -191,7 +191,7 @@ export const mockSessions: Session[] = [
         id: 3,
         name: "Route 3",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -206,7 +206,7 @@ export const mockSessions: Session[] = [
         id: 4,
         name: "Route 4",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -221,7 +221,7 @@ export const mockSessions: Session[] = [
         id: 5,
         name: "Route 5",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -236,7 +236,7 @@ export const mockSessions: Session[] = [
         id: 6,
         name: "Route 6",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -251,7 +251,7 @@ export const mockSessions: Session[] = [
         id: 7,
         name: "Route 7",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -266,7 +266,7 @@ export const mockSessions: Session[] = [
         id: 8,
         name: "Route 8",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -281,7 +281,7 @@ export const mockSessions: Session[] = [
         id: 9,
         name: "Route 9",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -296,7 +296,7 @@ export const mockSessions: Session[] = [
         id: 10,
         name: "Route 10",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -331,7 +331,7 @@ export const mockSessions: Session[] = [
         id: 1,
         name: "Route 1",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -346,7 +346,7 @@ export const mockSessions: Session[] = [
         id: 2,
         name: "Route 2",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -361,7 +361,7 @@ export const mockSessions: Session[] = [
         id: 3,
         name: "Route 3",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -376,7 +376,7 @@ export const mockSessions: Session[] = [
         id: 4,
         name: "Route 4",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -391,7 +391,7 @@ export const mockSessions: Session[] = [
         id: 5,
         name: "Route 5",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -406,7 +406,7 @@ export const mockSessions: Session[] = [
         id: 6,
         name: "Route 6",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -421,7 +421,7 @@ export const mockSessions: Session[] = [
         id: 7,
         name: "Route 7",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -436,7 +436,7 @@ export const mockSessions: Session[] = [
         id: 8,
         name: "Route 8",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -451,7 +451,7 @@ export const mockSessions: Session[] = [
         id: 9,
         name: "Route 9",
         send: true,
-        type: "boulder",
+        category: "boulder",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -466,7 +466,7 @@ export const mockSessions: Session[] = [
         id: 10,
         name: "Route 10",
         send: false,
-        type: "top-rope",
+        category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
           indoor: true,
@@ -485,6 +485,176 @@ export const mockSessions: Session[] = [
         {
           url: "iron-city-boulders.jpeg",
           caption: "Photo at Iron city boulders",
+        }
+      ]
+    },
+  },
+  {
+    id: 3,
+    date: new Date(),
+    location: {
+      name: "Sedona, Arizona",
+      indoor: false,
+    },
+    routes: [
+      {
+        id: 1,
+        name: "Route 1",
+        send: true,
+        category: "boulder",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "V5",
+          enjoyment: 8,
+          note: "Great route, challenging crux.",
+        },
+      },
+      {
+        id: 2,
+        name: "Route 2",
+        send: false,
+        category: "top-rope",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "5.11",
+          enjoyment: 7,
+          note: "Good route, needs more endurance.",
+        },
+      },
+      {
+        id: 3,
+        name: "Route 3",
+        send: true,
+        category: "boulder",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "V6",
+          enjoyment: 7,
+          note: "Interesting moves, tricky finish.",
+        },
+      },
+      {
+        id: 4,
+        name: "Route 4",
+        send: false,
+        category: "top-rope",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "5.12",
+          enjoyment: 6,
+          note: "Challenging route, need to work on endurance.",
+        },
+      },
+      {
+        id: 5,
+        name: "Route 5",
+        send: true,
+        category: "boulder",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "V4",
+          enjoyment: 8,
+          note: "Fun route, good flow.",
+        },
+      },
+      {
+        id: 6,
+        name: "Route 6",
+        send: false,
+        category: "top-rope",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "5.11",
+          enjoyment: 7,
+          note: "Good route, tricky crux.",
+        },
+      },
+      {
+        id: 7,
+        name: "Route 7",
+        send: true,
+        category: "boulder",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "V3",
+          enjoyment: 9,
+          note: "Enjoyable route, nice moves.",
+        },
+      },
+      {
+        id: 8,
+        name: "Route 8",
+        send: false,
+        category: "top-rope",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "5.10",
+          enjoyment: 8,
+          note: "Great route, good for warming up.",
+        },
+      },
+      {
+        id: 9,
+        name: "Route 9",
+        send: true,
+        category: "boulder",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "V2",
+          enjoyment: 9,
+          note: "Easy route, good for beginners.",
+        },
+      },
+      {
+        id: 10,
+        name: "Route 10",
+        send: false,
+        category: "top-rope",
+        location: {
+          name: "Mock Climbing Gym",
+          indoor: true,
+        },
+        notes: {
+          myGrade: "5.9",
+          enjoyment: 8,
+          note: "Nice route, good for practicing technique.",
+        },
+      },
+    ],
+    notes: {
+      weather: "Sunny af",
+      note: "Bitchin'",
+      images: [
+        {
+          url: "sedona.jpeg",
+          caption: "Photo at Sedona, AZ",
         }
       ]
     },

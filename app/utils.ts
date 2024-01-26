@@ -6,7 +6,7 @@ interface Route {
     indoor: boolean;
   };
   send: boolean;
-  type: "sport" | "top-rope" | "boulder" | "trad";
+  category: "sport" | "top-rope" | "boulder" | "trad";
   notes?: {
     myGrade?: string;
     enjoyment?: number;

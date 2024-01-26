@@ -10,20 +10,32 @@ interface Route {
   notes?: {
     myGrade?: string;
     enjoyment?: number;
-    notes?: string;
-  }
-};
+    note?: string;
+    images?: {
+      url: string;
+      caption?: string;
+      alt?: string;
+    };
+  };
+}
 
 interface Session {
   id: number;
   date: Date; // time is a part of the date object
-  location: {
+  location?: {
     name: string;
     indoor: boolean;
   };
   routes: Route[];
   notes?: {
     weather?: string;
-    notes?: string;
-  }
+    note?: string;
+    images?: [
+      {
+      url: string;
+      caption?: string;
+      alt?: string;
+      }
+  ];
+  };
 }

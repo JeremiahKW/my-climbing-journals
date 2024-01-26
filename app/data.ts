@@ -148,3 +148,167 @@ export const data10 = {
     notes: "Enjoyed the varied crack sizes!",
 };
 
+export const mockSession: Session = {
+    id: 1,
+    date: new Date(),
+    location: {
+        name: "Mock Climbing Gym",
+        indoor: true,
+    },
+    routes: [
+        {
+            id: 1,
+            name: "Route 1",
+            send: true,
+            type: "boulder",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "V5",
+                enjoyment: 8,
+                notes: "Great route, challenging crux."
+            }
+        },
+        {
+            id: 2,
+            name: "Route 2",
+            send: false,
+            type: "top-rope",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "5.11",
+                enjoyment: 7,
+                notes: "Good route, needs more endurance."
+            }
+        },
+        {
+            id: 3,
+            name: "Route 3",
+            send: true,
+            type: "boulder",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "V6",
+                enjoyment: 7,
+                notes: "Interesting moves, tricky finish."
+            }
+        },
+        {
+            id: 4,
+            name: "Route 4",
+            send: false,
+            type: "top-rope",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "5.12",
+                enjoyment: 6,
+                notes: "Challenging route, need to work on endurance."
+            }
+        },
+        {
+            id: 5,
+            name: "Route 5",
+            send: true,
+            type: "boulder",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "V4",
+                enjoyment: 8,
+                notes: "Fun route, good flow."
+            }
+        },
+        {
+            id: 6,
+            name: "Route 6",
+            send: false,
+            type: "top-rope",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "5.11",
+                enjoyment: 7,
+                notes: "Good route, tricky crux."
+            }
+        },
+        {
+            id: 7,
+            name: "Route 7",
+            send: true,
+            type: "boulder",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "V3",
+                enjoyment: 9,
+                notes: "Enjoyable route, nice moves."
+            }
+        },
+        {
+            id: 8,
+            name: "Route 8",
+            send: false,
+            type: "top-rope",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "5.10",
+                enjoyment: 8,
+                notes: "Great route, good for warming up."
+            }
+        },
+        {
+            id: 9,
+            name: "Route 9",
+            send: true,
+            type: "boulder",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "V2",
+                enjoyment: 9,
+                notes: "Easy route, good for beginners."
+            }
+        },
+        {
+            id: 10,
+            name: "Route 10",
+            send: false,
+            type: "top-rope",
+            location: {
+                name: "Mock Climbing Gym",
+                indoor: true,
+            },
+            notes: {
+                myGrade: "5.9",
+                enjoyment: 8,
+                notes: "Nice route, good for practicing technique."
+            }
+        }
+    ],
+    notes: {
+        weather: "Indoor",
+        notes: "Good session overall."
+    }
+}

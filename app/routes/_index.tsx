@@ -1,6 +1,5 @@
-import RouteCard from "../components/RouteCard";
-import Session from "../components/Sessions";
-import { mockSessions } from "../data"
+import SessionCard from "../components/SessionCard";
+import { mockSessions } from "../data" // this will get replaced with a database??
 
 
 export default function Index() {
@@ -10,7 +9,7 @@ export default function Index() {
     <>
       <div>
         {sessions.map((session) => (
-           <Session session={session} />
+           <SessionCard session={session} />
         ))}
       </div>
     </>

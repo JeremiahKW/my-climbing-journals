@@ -1,6 +1,6 @@
 import RouteCard from "./RouteCard";
 
-export default function Session({ session }) {
+export default function SessionCard({ session }) {
   return (
     <>
         <div>

@@ -11,11 +11,13 @@ interface Route {
     myGrade?: string;
     enjoyment?: number;
     note?: string;
-    images?: {
-      url: string;
-      caption?: string;
-      alt?: string;
-    };
+    images?: [
+      {
+        url: string;
+        caption?: string;
+        alt?: string;
+      }
+    ];
   };
 }
 
@@ -32,10 +34,10 @@ interface Session {
     note?: string;
     images?: [
       {
-      url: string;
-      caption?: string;
-      alt?: string;
+        url: string;
+        caption?: string;
+        alt?: string;
       }
-  ];
+    ];
   };
 }

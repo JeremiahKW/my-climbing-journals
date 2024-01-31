@@ -160,7 +160,7 @@ export const mockSessions: Session[] = [
       {
         id: 1,
         name: "Route 1",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -190,7 +190,7 @@ export const mockSessions: Session[] = [
       {
         id: 3,
         name: "Route 3",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -220,7 +220,7 @@ export const mockSessions: Session[] = [
       {
         id: 5,
         name: "Route 5",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -250,7 +250,7 @@ export const mockSessions: Session[] = [
       {
         id: 7,
         name: "Route 7",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -280,7 +280,7 @@ export const mockSessions: Session[] = [
       {
         id: 9,
         name: "Route 9",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -330,7 +330,7 @@ export const mockSessions: Session[] = [
       {
         id: 1,
         name: "Route 1",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -360,7 +360,7 @@ export const mockSessions: Session[] = [
       {
         id: 3,
         name: "Route 3",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -390,7 +390,7 @@ export const mockSessions: Session[] = [
       {
         id: 5,
         name: "Route 5",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -450,7 +450,7 @@ export const mockSessions: Session[] = [
       {
         id: 9,
         name: "Route 9",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -499,17 +499,23 @@ export const mockSessions: Session[] = [
     routes: [
       {
         id: 1,
-        name: "Route 1",
+        name: "Sedona 1",
         send: true,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
-          indoor: true,
+          indoor: false,
         },
         notes: {
           myGrade: "V5",
           enjoyment: 8,
           note: "Great route, challenging crux.",
+          images: [
+            {
+              url: "sedona2.jpeg",
+              caption: "Photo at Sedona, AZ",
+            }
+          ]
         },
       },
       {
@@ -519,7 +525,7 @@ export const mockSessions: Session[] = [
         category: "top-rope",
         location: {
           name: "Mock Climbing Gym",
-          indoor: true,
+          indoor: false,
         },
         notes: {
           myGrade: "5.11",
@@ -530,7 +536,7 @@ export const mockSessions: Session[] = [
       {
         id: 3,
         name: "Route 3",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -590,7 +596,7 @@ export const mockSessions: Session[] = [
       {
         id: 7,
         name: "Route 7",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",
@@ -620,7 +626,7 @@ export const mockSessions: Session[] = [
       {
         id: 9,
         name: "Route 9",
-        send: true,
+        send: false,
         category: "boulder",
         location: {
           name: "Mock Climbing Gym",

@@ -9,7 +9,9 @@ export default function Index() {
     <>
       <div>
         {sessions.map((session) => (
-           <SessionCard session={session} />
+          <div key={session.id}>
+            <SessionCard session={session} />
+          </div>
         ))}
       </div>
     </>
